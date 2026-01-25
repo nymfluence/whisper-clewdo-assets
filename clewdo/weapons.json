@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "weapons": [
+    { "id": "champagne-bottle", "label": "a champagne bottle", "verb": "shattered", "detail": "glass and bubbles everywhere" },
+    { "id": "diamond-letter-opener", "label": "a diamond-tipped letter opener", "verb": "slipped", "detail": "no struggle, just silence" },
+    { "id": "silk-tie", "label": "a silk tie", "verb": "tightened", "detail": "perfectly knotted, perfectly cruel" },
+    { "id": "cigar-cutter", "label": "a cigar cutter", "verb": "clicked", "detail": "one clean, brutal motion" },
+    { "id": "poker-chip", "label": "a heavy poker chip", "verb": "thrown", "detail": "a flick of the wrist and it was over" },
+    { "id": "whiskey-decanter", "label": "a whiskey decanter", "verb": "swung", "detail": "crystal met bone" },
+    { "id": "perfume", "label": "a perfume bottle", "verb": "sprayed", "detail": "sweet scent, sharp ending" },
+    { "id": "broken-vinyl", "label": "a broken vinyl record", "verb": "spun", "detail": "music died first" },
+    { "id": "elevator-key", "label": "an elevator key", "verb": "pressed", "detail": "doors closed on the truth" },
+    { "id": "candle", "label": "a candle", "verb": "dripped", "detail": "warm wax, cold intent" }
+  ]
+}
