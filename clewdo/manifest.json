@@ -1,39 +1,22 @@
 {
-  "game": "WHISPER · CLEWDO",
   "version": 1,
-  "cdn": {
-    "type": "github-raw",
-    "base": "https://raw.githubusercontent.com/<GH_USERNAME>/whisper-clewdo-assets/main/clewdo"
-  },
-  "timing": {
-    "advanceEverySeconds": 10
-  },
-  "defaults": {
-    "victimFrameSize": 320,
-    "winnerFrameSize": 420
-  },
-  "assets": {
-    "polaroids": {
-      "victimFrame": "/polaroids/victim-frame.png",
-      "killerQuestion": "/polaroids/killer-question.png"
-    }
-  },
-  "cards": [
+  "repo": "whisper-clewdo-assets",
+  "basePath": "clewdo/rooms",
+  "defaultAvatarSize": 320,
+  "rooms": [
     {
       "index": 1,
       "slug": "entrance-hall",
       "title": "Entrance Hall",
       "type": "intro",
-      "image": "/rooms/01-entrance-hall-base.png",
-      "polaroids": 0
+      "image": "01-entrance-hall-base.png"
     },
     {
       "index": 2,
       "slug": "front-desk",
       "title": "Front Desk",
       "type": "rollcall",
-      "image": "/rooms/02-front-desk-base.png",
-      "polaroids": 0
+      "image": "02-front-desk-base.png"
     },
 
     {
@@ -41,297 +24,264 @@
       "slug": "cloakroom",
       "title": "Cloakroom",
       "type": "elimination",
-      "image": "/rooms/03-cloakroom-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 847.1, "y": 552.7 }
+      "image": "03-cloakroom-base.png",
+      "avatarSlot": { "x": 847.1, "y": 552.7 }
     },
     {
       "index": 4,
       "slug": "gallery",
       "title": "Gallery",
       "type": "elimination",
-      "image": "/rooms/04-gallery-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 202.5, "y": 367.5 }
+      "image": "04-gallery-base.png",
+      "avatarSlot": { "x": 202.5, "y": 367.5 }
     },
     {
       "index": 5,
       "slug": "hall-of-fame",
       "title": "Hall of Fame",
       "type": "elimination",
-      "image": "/rooms/05-hall-of-fame-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 395.1, "y": 431.9 }
+      "image": "05-hall-of-fame-base.png",
+      "avatarSlot": { "x": 395.1, "y": 431.9 }
     },
     {
       "index": 6,
       "slug": "smoking-terrace",
       "title": "Smoking Terrace",
       "type": "elimination",
-      "image": "/rooms/06-smoking-terrace-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 832.2, "y": 534.6 }
+      "image": "06-smoking-terrace-base.png",
+      "avatarSlot": { "x": 832.2, "y": 534.6 }
     },
     {
       "index": 7,
       "slug": "fire-escape",
       "title": "Fire Escape",
       "type": "elimination",
-      "image": "/rooms/07-fire-escape-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 572.9, "y": 558.1 }
+      "image": "07-fire-escape-base.png",
+      "avatarSlot": { "x": 572.9, "y": 558.1 }
     },
     {
       "index": 8,
       "slug": "bar",
       "title": "Bar",
       "type": "elimination",
-      "image": "/rooms/08-bar-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 673.4, "y": 390.6 }
+      "image": "08-bar-base.png",
+      "avatarSlot": { "x": 673.4, "y": 390.6 }
     },
     {
       "index": 9,
       "slug": "wine-cellar",
       "title": "Wine Cellar",
       "type": "elimination",
-      "image": "/rooms/09-wine-cellar-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 595.4, "y": 484.9 }
+      "image": "09-wine-cellar-base.png",
+      "avatarSlot": { "x": 595.4, "y": 484.9 }
     },
     {
       "index": 10,
       "slug": "snug",
       "title": "Snug",
       "type": "elimination",
-      "image": "/rooms/10-snug-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 627.9, "y": 443.1 }
+      "image": "10-snug-base.png",
+      "avatarSlot": { "x": 627.9, "y": 443.1 }
     },
     {
       "index": 11,
       "slug": "booths",
       "title": "Booths",
       "type": "elimination",
-      "image": "/rooms/11-booths-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 632.1, "y": 495.7 }
+      "image": "11-booths-base.png",
+      "avatarSlot": { "x": 632.1, "y": 495.7 }
     },
     {
       "index": 12,
       "slug": "powder-room",
       "title": "Powder Room",
       "type": "elimination",
-      "image": "/rooms/12-powder-room-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 313.5, "y": 464.4 }
+      "image": "12-powder-room-base.png",
+      "avatarSlot": { "x": 313.5, "y": 464.4 }
     },
     {
       "index": 13,
       "slug": "gents-bathroom",
       "title": "Gents Bathroom",
       "type": "elimination",
-      "image": "/rooms/13-gents-bathroom-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 434.5, "y": 474.5 }
+      "image": "13-gents-bathroom-base.png",
+      "avatarSlot": { "x": 434.5, "y": 474.5 }
     },
     {
       "index": 14,
       "slug": "dance-floor",
       "title": "Dance Floor",
       "type": "elimination",
-      "image": "/rooms/14-dance-floor-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 434.7, "y": 473.0 }
+      "image": "14-dance-floor-base.png",
+      "avatarSlot": { "x": 434.7, "y": 473.0 }
     },
     {
       "index": 15,
       "slug": "dj-booth",
       "title": "DJ Booth",
       "type": "elimination",
-      "image": "/rooms/15-dj-booth-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 501.4, "y": 433.4 }
+      "image": "15-dj-booth-base.png",
+      "avatarSlot": { "x": 501.4, "y": 433.4 }
     },
     {
       "index": 16,
       "slug": "games-room",
       "title": "Games Room",
       "type": "elimination",
-      "image": "/rooms/16-games-room-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 596.1, "y": 500.1 }
+      "image": "16-games-room-base.png",
+      "avatarSlot": { "x": 596.1, "y": 500.1 }
     },
     {
       "index": 17,
       "slug": "casino",
       "title": "Casino",
       "type": "elimination",
-      "image": "/rooms/17-casino-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 626.2, "y": 513.2 }
+      "image": "17-casino-base.png",
+      "avatarSlot": { "x": 626.2, "y": 513.2 }
     },
     {
       "index": 18,
       "slug": "shop",
       "title": "Shop",
       "type": "elimination",
-      "image": "/rooms/18-shop-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 589.4, "y": 470.9 }
+      "image": "18-shop-base.png",
+      "avatarSlot": { "x": 589.4, "y": 470.9 }
     },
     {
       "index": 19,
       "slug": "greenroom",
       "title": "Greenroom",
       "type": "elimination",
-      "image": "/rooms/19-greenroom-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 580.2, "y": 439.4 }
+      "image": "19-greenroom-base.png",
+      "avatarSlot": { "x": 580.2, "y": 439.4 }
     },
     {
       "index": 20,
       "slug": "staffroom",
       "title": "Staffroom",
       "type": "elimination",
-      "image": "/rooms/20-staffroom-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 567.6, "y": 492.6 }
+      "image": "20-staffroom-base.png",
+      "avatarSlot": { "x": 567.6, "y": 492.6 }
     },
     {
       "index": 21,
       "slug": "champagne-lounge",
       "title": "Champagne Lounge",
       "type": "elimination",
-      "image": "/rooms/21-champagne-lounge-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 588.9, "y": 464.0 }
+      "image": "21-champagne-lounge-base.png",
+      "avatarSlot": { "x": 588.9, "y": 464.0 }
     },
     {
       "index": 22,
       "slug": "confessional",
       "title": "Confessional",
       "type": "elimination",
-      "image": "/rooms/22-confessional-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 589.4, "y": 423.3 }
+      "image": "22-confessional-base.png",
+      "avatarSlot": { "x": 589.4, "y": 423.3 }
     },
     {
       "index": 23,
       "slug": "vacuum-chamber",
       "title": "Vacuum Chamber",
       "type": "elimination",
-      "image": "/rooms/23-vacuum-chamber-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 658.7, "y": 545.5 }
+      "image": "23-vacuum-chamber-base.png",
+      "avatarSlot": { "x": 658.7, "y": 545.5 }
     },
     {
       "index": 24,
       "slug": "red-room",
       "title": "Red Room",
       "type": "elimination",
-      "image": "/rooms/24-red-room-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 797.1, "y": 366.5 }
+      "image": "24-red-room-base.png",
+      "avatarSlot": { "x": 797.1, "y": 366.5 }
     },
     {
       "index": 25,
       "slug": "flash-stage",
       "title": "Flash Stage",
       "type": "elimination",
-      "image": "/rooms/25-flash-stage-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 53.2, "y": 367.7 }
+      "image": "25-flash-stage-base.png",
+      "avatarSlot": { "x": 53.2, "y": 367.7 }
     },
     {
       "index": 26,
       "slug": "owners-office",
       "title": "Owner’s Office",
       "type": "elimination",
-      "image": "/rooms/26-owners-office-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 170.0, "y": 475.2 }
+      "image": "26-owners-office-base.png",
+      "avatarSlot": { "x": 170.0, "y": 475.2 }
     },
     {
       "index": 27,
       "slug": "lift",
       "title": "Lift",
       "type": "elimination",
-      "image": "/rooms/27-lift-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 572.7, "y": 579.4 }
+      "image": "27-lift-base.png",
+      "avatarSlot": { "x": 572.7, "y": 579.4 }
     },
     {
       "index": 28,
       "slug": "hotel-floor",
       "title": "Hotel Floor",
       "type": "elimination",
-      "image": "/rooms/28-hotel-floor-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 467.0, "y": 407.6 }
+      "image": "28-hotel-floor-base.png",
+      "avatarSlot": { "x": 467.0, "y": 407.6 }
     },
     {
       "index": 29,
       "slug": "bedroom-one",
       "title": "Bedroom One",
       "type": "elimination",
-      "image": "/rooms/29-bedroom-one-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 465.5, "y": 481.0 }
+      "image": "29-bedroom-one-base.png",
+      "avatarSlot": { "x": 465.5, "y": 481.0 }
     },
     {
       "index": 30,
       "slug": "bedroom-two",
       "title": "Bedroom Two",
       "type": "elimination",
-      "image": "/rooms/30-bedroom-two-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 531.2, "y": 472.7 }
+      "image": "30-bedroom-two-base.png",
+      "avatarSlot": { "x": 531.2, "y": 472.7 }
     },
     {
       "index": 31,
       "slug": "bedroom-three",
       "title": "Bedroom Three",
       "type": "elimination",
-      "image": "/rooms/31-bedroom-three-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 439.6, "y": 370.5 }
+      "image": "31-bedroom-three-base.png",
+      "avatarSlot": { "x": 439.6, "y": 370.5 }
     },
     {
       "index": 32,
       "slug": "bedroom-four",
       "title": "Bedroom Four",
       "type": "elimination",
-      "image": "/rooms/32-bedroom-four-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 437.4, "y": 377.9 }
+      "image": "32-bedroom-four-base.png",
+      "avatarSlot": { "x": 437.4, "y": 377.9 }
     },
     {
       "index": 33,
       "slug": "hot-tub-terrace",
       "title": "Hot Tub Terrace",
       "type": "elimination",
-      "image": "/rooms/33-hot-tub-terrace-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 525.3, "y": 589.6 }
+      "image": "33-hot-tub-terrace-base.png",
+      "avatarSlot": { "x": 525.3, "y": 589.6 }
     },
     {
       "index": 34,
       "slug": "penthouse",
       "title": "Penthouse",
       "type": "elimination",
-      "image": "/rooms/34-penthouse-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 476.1, "y": 400.7 }
+      "image": "34-penthouse-base.png",
+      "avatarSlot": { "x": 476.1, "y": 400.7 }
     },
     {
       "index": 35,
       "slug": "late-checkout-desk",
       "title": "Late Checkout Desk",
       "type": "elimination",
-      "image": "/rooms/35-late-checkout-desk-base.png",
-      "polaroids": 2,
-      "victimFrame": { "x": 487.1, "y": 488.8 }
+      "image": "35-late-checkout-desk-base.png",
+      "avatarSlot": { "x": 487.1, "y": 488.8 }
     },
 
     {
@@ -339,9 +289,8 @@
       "slug": "vip-lounge",
       "title": "VIP Lounge",
       "type": "finale",
-      "image": "/rooms/36-vip-lounge-base.png",
-      "polaroids": 1,
-      "winnerFrame": { "x": 450.0, "y": 416.2 }
+      "image": "36-vip-lounge-base.png",
+      "avatarSlot": { "x": 450.0, "y": 416.2 }
     }
   ]
 }
