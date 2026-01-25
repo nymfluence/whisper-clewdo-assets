@@ -1,24 +1,26 @@
 # whisper-clewdo-assets
 
-Static image assets for WHISPER · CLEWDO.
+Asset repository for WHISPER · CLEWDO.
 
-## Folder layout
+## Folder structure
 
 - `clewdo/rooms/`  
-  Contains the base room images in sequence, named:
-  `01-entrance-hall-base.png` … `36-vip-lounge-base.png`
+  Base room images (PNG). These already contain:
+  - the blank Polaroid window (victim PFP goes here)
+  - the killer red question mark Polaroid baked into the image (elimination cards)
 
-- `clewdo/manifest.json`  
-  Room metadata + avatar slot coordinates for dynamic image generation.
+- `clewdo/config/pfp-frames.json`  
+  Coordinates + dimensions for where to composite the victim PFP into each room template.
 
-## How rendering works (important)
+- `clewdo/config/rooms.json`  
+  Room index mapping and metadata.
 
-The base room images already contain:
-- the victim Polaroid with a **blank black 1:1 frame**
-- the killer Polaroid with a **red question mark**
+## Notes
 
-Therefore, the image generator must ONLY:
-- paste the eliminated player’s avatar into the blank black square at `(x,y)`
-- using a consistent square size (`defaultAvatarSize`)
+- Room 01 and 02 do not require victim PFP compositing.
+- Rooms 03–35 require victim PFP compositing into the blank Polaroid window.
+- Room 36 (VIP Lounge) also requires victim PFP compositing (winner/murdered reveal).
 
-No polaroid overlays are required.
+## Raw file usage
+
+When served via GitHub raw URLs, the API can fetch templates and config directly.
