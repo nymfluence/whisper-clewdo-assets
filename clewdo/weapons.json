@@ -1,15 +1,44 @@
 {
-  "version": 1,
-  "weapons": [
-    { "id": "champagne-bottle", "label": "a champagne bottle", "verb": "shattered", "detail": "glass and bubbles everywhere" },
-    { "id": "diamond-letter-opener", "label": "a diamond-tipped letter opener", "verb": "slipped", "detail": "no struggle, just silence" },
-    { "id": "silk-tie", "label": "a silk tie", "verb": "tightened", "detail": "perfectly knotted, perfectly cruel" },
-    { "id": "cigar-cutter", "label": "a cigar cutter", "verb": "clicked", "detail": "one clean, brutal motion" },
-    { "id": "poker-chip", "label": "a heavy poker chip", "verb": "thrown", "detail": "a flick of the wrist and it was over" },
-    { "id": "whiskey-decanter", "label": "a whiskey decanter", "verb": "swung", "detail": "crystal met bone" },
-    { "id": "perfume", "label": "a perfume bottle", "verb": "sprayed", "detail": "sweet scent, sharp ending" },
-    { "id": "broken-vinyl", "label": "a broken vinyl record", "verb": "spun", "detail": "music died first" },
-    { "id": "elevator-key", "label": "an elevator key", "verb": "pressed", "detail": "doors closed on the truth" },
-    { "id": "candle", "label": "a candle", "verb": "dripped", "detail": "warm wax, cold intent" }
-  ]
+  "version": 2,
+  "rooms": {
+    "3": {
+      "name": "Cloakroom",
+      "weapons": [
+        { "id": "coat-hook", "label": "a coat hook", "detail": "ripped from the wall" },
+        { "id": "scarf", "label": "a silk scarf", "detail": "pulled tight without warning" },
+        { "id": "umbrella-spike", "label": "an umbrella spike", "detail": "left by the door" },
+        { "id": "hanger-wire", "label": "a twisted hanger wire", "detail": "bent into something lethal" }
+      ]
+    },
+    "8": {
+      "name": "Bar",
+      "weapons": [
+        { "id": "champagne-bottle", "label": "a champagne bottle", "detail": "shattered in one clean swing" },
+        { "id": "corkscrew", "label": "a corkscrew", "detail": "still slick with wine" },
+        { "id": "bar-muddler", "label": "a bar muddler", "detail": "used far too hard" },
+        { "id": "glass-shard", "label": "a shard of glass", "detail": "jagged and deliberate" }
+      ]
+    },
+    "24": {
+      "name": "Red Room",
+      "weapons": [
+        { "id": "velvet-cord", "label": "a velvet cord", "detail": "soft to the touch, deadly in use" },
+        { "id": "leather-restraint", "label": "a leather restraint", "detail": "never meant to loosen" },
+        { "id": "decorative-dagger", "label": "a decorative dagger", "detail": "finally put to use" },
+        { "id": "metal-ring", "label": "a heavy metal ring", "detail": "used like a knuckle-duster" }
+      ]
+    },
+    "27": {
+      "name": "Lift",
+      "weapons": [
+        { "id": "elevator-key", "label": "an elevator key", "detail": "pressed at the wrong moment" },
+        { "id": "door-bolt", "label": "a door bolt", "detail": "ripped free mid-ascent" },
+        { "id": "cable", "label": "an exposed cable", "detail": "still humming softly" }
+      ]
+    },
+    "36": {
+      "name": "VIP Lounge",
+      "weapons": []
+    }
+  }
 }
