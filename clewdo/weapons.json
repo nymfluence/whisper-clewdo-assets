@@ -1,76 +1,110 @@
 {
   "version": 2,
-  "rooms": {
-    "cloakroom": [
-      { "id": "silk-scarf", "label": "a silk scarf", "verb": "tightened", "detail": "still warm from someone else’s neck" },
-      { "id": "coat-hook", "label": "a brass coat hook", "verb": "caught", "detail": "no one heard the second impact" },
-      { "id": "perfume-bottle", "label": "a crystal perfume bottle", "verb": "shattered", "detail": "sweet scent, sharp consequences" },
-      { "id": "umbrella-tip", "label": "an umbrella tip", "verb": "jabbed", "detail": "meant for rain, not ribs" },
-      { "id": "leather-belt", "label": "a leather belt", "verb": "cinched", "detail": "designer, expensive, unforgiving" }
-    ],
+  "weapons": [
+    { "id": "cloakroom-coathanger", "label": "a metal coat hanger", "verb": "twisted", "detail": "fashioned into something far more final", "rooms": [3] },
+    { "id": "cloakroom-safety-pin", "label": "an oversized safety pin", "verb": "jabbed", "detail": "one sharp poke in exactly the wrong place", "rooms": [3] },
 
-    "gallery": [
-      { "id": "bronze-plaque", "label": "a bronze name plaque", "verb": "swung", "detail": "immortalised for all the wrong reasons" },
-      { "id": "frame-wire", "label": "exposed frame wire", "verb": "snapped", "detail": "art finally drew blood" },
-      { "id": "glass-pedestal", "label": "a glass pedestal", "verb": "toppled", "detail": "tasteful, until it wasn’t" },
-      { "id": "sculpture-edge", "label": "a sculpted marble edge", "verb": "connected", "detail": "form met function" },
-      { "id": "security-rope", "label": "a velvet security rope", "verb": "looped", "detail": "meant to keep distance, not breath" }
-    ],
+    { "id": "gallery-frame-wire", "label": "a frame-hanging wire", "verb": "tightened", "detail": "artfully, efficiently—no applause required", "rooms": [4] },
+    { "id": "gallery-marble-bust", "label": "a marble bust", "verb": "dropped", "detail": "culture met gravity; gravity won", "rooms": [4] },
 
-    "hall-of-fame": [
-      { "id": "trophy-base", "label": "a solid trophy base", "verb": "lifted", "detail": "heavy with ego" },
-      { "id": "engraved-plate", "label": "an engraved metal plate", "verb": "slid", "detail": "their name already etched" },
-      { "id": "display-glass", "label": "shattered display glass", "verb": "collapsed", "detail": "no applause this time" },
-      { "id": "spotlight-stand", "label": "a spotlight stand", "verb": "fell", "detail": "fame fades fast" },
-      { "id": "award-plinth", "label": "a marble plinth", "verb": "toppled", "detail": "legacy cracked on impact" }
-    ],
+    { "id": "hof-acrylic-plaque", "label": "an acrylic award plaque", "verb": "shattered", "detail": "glittering fragments and a very quiet scream", "rooms": [5] },
+    { "id": "hof-trophy-base", "label": "a trophy base", "verb": "swung", "detail": "turns out recognition can be heavy", "rooms": [5] },
 
-    "smoking-terrace": [
-      { "id": "cigar-cutter", "label": "a cigar cutter", "verb": "clicked", "detail": "one clean, final cut" },
-      { "id": "ashtray", "label": "a heavy ashtray", "verb": "dropped", "detail": "still warm with regret" },
-      { "id": "lighter-flame", "label": "a silver lighter", "verb": "flicked", "detail": "too close, too long" },
-      { "id": "balcony-rail", "label": "the terrace railing", "verb": "gave", "detail": "gravity did the rest" },
-      { "id": "whiskey-glass", "label": "a thick whiskey glass", "verb": "cracked", "detail": "ice everywhere but the mood" }
-    ],
+    { "id": "terrace-cigar-cutter", "label": "a cigar cutter", "verb": "clicked", "detail": "one clean, brutal motion", "rooms": [6] },
+    { "id": "terrace-ashtray", "label": "a cut-glass ashtray", "verb": "cracked", "detail": "crystal met bone", "rooms": [6] },
 
-    "fire-escape": [
-      { "id": "metal-stairs", "label": "the steel stair edge", "verb": "met", "detail": "no second chance" },
-      { "id": "alarm-box", "label": "an alarm housing", "verb": "smashed", "detail": "sirens stayed silent" },
-      { "id": "rusted-handrail", "label": "a rusted handrail", "verb": "gave", "detail": "age finally mattered" },
-      { "id": "service-door", "label": "a service door", "verb": "slammed", "detail": "escape denied" },
-      { "id": "emergency-chain", "label": "an emergency chain", "verb": "snagged", "detail": "meant to save lives" }
-    ],
+    { "id": "fireescape-chain", "label": "a stairwell chain", "verb": "wrapped", "detail": "a quick pull, a long drop", "rooms": [7] },
+    { "id": "fireescape-doorbar", "label": "a fire door bar", "verb": "slammed", "detail": "the exit was right there. Shame.", "rooms": [7] },
 
-    "bar": [
-      { "id": "champagne-bottle", "label": "a champagne bottle", "verb": "shattered", "detail": "celebration ended abruptly" },
-      { "id": "bar-knife", "label": "a bar knife", "verb": "slipped", "detail": "between pours" },
-      { "id": "counter-edge", "label": "the marble bar edge", "verb": "caught", "detail": "harder than expected" },
-      { "id": "cocktail-muddler", "label": "a cocktail muddler", "verb": "pressed", "detail": "one last mix" },
-      { "id": "broken-glass", "label": "broken glass", "verb": "bit", "detail": "cut short" }
-    ],
+    { "id": "bar-whiskey-decanter", "label": "a whiskey decanter", "verb": "swung", "detail": "crystal met bone", "rooms": [8] },
+    { "id": "bar-bottle", "label": "a champagne bottle", "verb": "shattered", "detail": "glass and bubbles everywhere", "rooms": [8, 21] },
+    { "id": "bar-icepick", "label": "an ice pick", "verb": "pressed", "detail": "cold steel, colder intent", "rooms": [8] },
+    { "id": "bar-barspoon", "label": "a bar spoon", "verb": "stabbed", "detail": "a cocktail tool doing a very non-cocktail job", "rooms": [8] },
 
-    "wine-cellar": [
-      { "id": "wine-rack", "label": "a wine rack", "verb": "collapsed", "detail": "vintages shattered" },
-      { "id": "cork-screw", "label": "a corkscrew", "verb": "twisted", "detail": "opened something darker" },
-      { "id": "bottle-crate", "label": "a wooden crate", "verb": "fell", "detail": "aged badly" },
-      { "id": "cellar-door", "label": "the cellar door", "verb": "closed", "detail": "no light left" },
-      { "id": "glass-necks", "label": "shattered bottle necks", "verb": "caught", "detail": "sharp and final" }
-    ],
+    { "id": "cellar-corkscrew", "label": "a corkscrew", "verb": "twisted", "detail": "opened something that wasn’t a bottle", "rooms": [9] },
+    { "id": "cellar-winecrate", "label": "a wine crate", "verb": "dropped", "detail": "aged oak, fresh regret", "rooms": [9] },
 
-    "champagne-lounge": [
-      { "id": "stripper-pole", "label": "a chrome pole", "verb": "spun", "detail": "slick, polished, lethal" },
-      { "id": "stage-heels", "label": "a pair of stage heels", "verb": "connected", "detail": "sharp in every sense" },
-      { "id": "mirrored-wall", "label": "the mirrored wall", "verb": "cracked", "detail": "everyone watched" },
-      { "id": "velvet-rope", "label": "a velvet rope", "verb": "pulled", "detail": "access revoked" },
-      { "id": "ice-bucket", "label": "a champagne ice bucket", "verb": "dropped", "detail": "cold finish" }
-    ],
+    { "id": "snug-silk-tie", "label": "a silk tie", "verb": "tightened", "detail": "perfectly knotted, perfectly cruel", "rooms": [10] },
+    { "id": "snug-velvet-cord", "label": "a velvet cord", "verb": "cinched", "detail": "soft fabric, hard outcome", "rooms": [10] },
 
-    "vip-lounge": [
-      { "id": "leather-sofa", "label": "the leather sofa", "verb": "shifted", "detail": "luxury turned hostile" },
-      { "id": "golden-decantor", "label": "a gold-trimmed decanter", "verb": "swung", "detail": "exclusive and heavy" },
-      { "id": "private-door", "label": "the private door", "verb": "closed", "detail": "privacy guaranteed" },
-      { "id": "fireplace-tools", "label": "a fireplace tool", "verb": "lifted", "detail": "still warm" },
-      { "id": "marble-table", "label": "the marble table edge", "verb": "met", "detail": "no forgiveness" }
-    ]
-  }
+    { "id": "booths-poker-chip", "label": "a heavy poker chip", "verb": "thrown", "detail": "a flick of the wrist and it was over", "rooms": [11, 17] },
+    { "id": "booths-menu-board", "label": "a leather menu board", "verb": "slammed", "detail": "service was brutal tonight", "rooms": [11] },
+
+    { "id": "powderroom-perfume", "label": "a perfume bottle", "verb": "sprayed", "detail": "sweet scent, sharp ending", "rooms": [12] },
+    { "id": "powderroom-hairpin", "label": "a decorative hairpin", "verb": "slipped", "detail": "beauty has its little secrets", "rooms": [12] },
+
+    { "id": "gents-razor", "label": "a straight razor", "verb": "glided", "detail": "smooth, precise, unforgiving", "rooms": [13] },
+    { "id": "gents-belt", "label": "a leather belt", "verb": "pulled", "detail": "a buckle, a bruise, a blackout", "rooms": [13] },
+
+    { "id": "dancefloor-stiletto", "label": "a stiletto heel", "verb": "drove", "detail": "sharp enough to puncture confidence—and more", "rooms": [14] },
+    { "id": "dancefloor-lightingrig", "label": "a lighting rig cable", "verb": "snapped", "detail": "the spotlight fell… on the wrong person", "rooms": [14, 15] },
+
+    { "id": "djbooth-broken-vinyl", "label": "a broken vinyl record", "verb": "spun", "detail": "music died first", "rooms": [15] },
+    { "id": "djbooth-headphones", "label": "a coiled headphone lead", "verb": "looped", "detail": "bass still thumping, pulse very much not", "rooms": [15] },
+
+    { "id": "gamesroom-dicebag", "label": "a weighted dice bag", "verb": "swung", "detail": "loaded in more ways than one", "rooms": [16] },
+    { "id": "gamesroom-cue", "label": "a pool cue", "verb": "drove", "detail": "a clean break, a cleaner finish", "rooms": [16] },
+
+    { "id": "casino-cardshuffler", "label": "a card shuffler", "verb": "jammed", "detail": "luck ran out mid-deal", "rooms": [17] },
+    { "id": "casino-rouletteball", "label": "a roulette ball", "verb": "launched", "detail": "small, fast, and fatally accurate", "rooms": [17] },
+
+    { "id": "shop-boxcutter", "label": "a box cutter", "verb": "opened", "detail": "the packaging wasn’t the only thing sliced", "rooms": [18] },
+    { "id": "shop-giftwrapribbon", "label": "a gift-wrap ribbon", "verb": "pulled", "detail": "a bow tied with terrible sincerity", "rooms": [18] },
+
+    { "id": "greenroom-micstand", "label": "a microphone stand", "verb": "struck", "detail": "the performance ended abruptly", "rooms": [19] },
+    { "id": "greenroom-hairspray", "label": "a can of hairspray", "verb": "sprayed", "detail": "a flash of heat and a lot of screams", "rooms": [19] },
+
+    { "id": "staffroom-keyring", "label": "a staff keyring", "verb": "jabbed", "detail": "turns out access comes with consequences", "rooms": [20] },
+    { "id": "staffroom-cleaner", "label": "industrial cleaner", "verb": "spilled", "detail": "not a stain in sight… for a reason", "rooms": [20] },
+
+    { "id": "champagne-sabre", "label": "a champagne sabre", "verb": "sliced", "detail": "celebration turned surgical", "rooms": [21] },
+    { "id": "champagne-flute", "label": "a crystal flute", "verb": "punctured", "detail": "bubbles on the floor, blood on the glass", "rooms": [21] },
+
+    { "id": "confessional-rosary", "label": "a rosary chain", "verb": "tightened", "detail": "forgive them… or don’t", "rooms": [22] },
+    { "id": "confessional-screen", "label": "a privacy screen hinge", "verb": "snapped", "detail": "secrets weren’t the only thing broken", "rooms": [22] },
+
+    { "id": "vacuum-pressurevalve", "label": "a pressure valve handle", "verb": "turned", "detail": "air left the room. So did hope.", "rooms": [23] },
+    { "id": "vacuum-sealclamp", "label": "a seal clamp", "verb": "locked", "detail": "a click that sounded like ‘goodnight’", "rooms": [23] },
+
+    { "id": "redroom-cuffs", "label": "a set of leather cuffs", "verb": "latched", "detail": "consent left the chat", "rooms": [24] },
+    { "id": "redroom-ridingcrop", "label": "a riding crop", "verb": "struck", "detail": "a few playful taps… then none", "rooms": [24] },
+
+    { "id": "flashstage-camera-tripod", "label": "a camera tripod", "verb": "smashed", "detail": "content was created. So was trauma.", "rooms": [25] },
+    { "id": "flashstage-ringlightstand", "label": "a ring light stand", "verb": "stabbed", "detail": "it finally made them look ‘sharp’", "rooms": [25] },
+
+    { "id": "ownersoffice-letteropener", "label": "a diamond-tipped letter opener", "verb": "slipped", "detail": "no struggle, just silence", "rooms": [26] },
+    { "id": "ownersoffice-paperweight", "label": "a marble paperweight", "verb": "dropped", "detail": "executive decisions were made", "rooms": [26] },
+
+    { "id": "lift-elevatorkey", "label": "an elevator key", "verb": "pressed", "detail": "doors closed on the truth", "rooms": [27] },
+    { "id": "lift-doors", "label": "the lift doors", "verb": "closed", "detail": "too slow to scream, too fast to stop", "rooms": [27] },
+
+    { "id": "corridor-roomkeycard", "label": "a room keycard", "verb": "shoved", "detail": "plastic can still cut when you mean it", "rooms": [28] },
+    { "id": "corridor-luggagecart", "label": "a luggage cart", "verb": "rammed", "detail": "checked in. Checked out.", "rooms": [28] },
+
+    { "id": "velvetsuite-pillow", "label": "a satin pillow", "verb": "pressed", "detail": "soft, slow, merciless", "rooms": [29] },
+    { "id": "velvetsuite-bedsash", "label": "a bed sash", "verb": "tightened", "detail": "the suite kept its little luxuries", "rooms": [29] },
+
+    { "id": "zodiacsuite-crystalball", "label": "a crystal ball", "verb": "smashed", "detail": "turns out it *did* see this coming", "rooms": [30] },
+    { "id": "zodiacsuite-tarotedge", "label": "a tarot card", "verb": "slashed", "detail": "death came with a glossy finish", "rooms": [30] },
+
+    { "id": "opalsuite-lampcord", "label": "a lamp cord", "verb": "pulled", "detail": "lights out, permanently", "rooms": [31] },
+    { "id": "opalsuite-glassorb", "label": "a glass ornament", "verb": "cracked", "detail": "pretty, delicate, devastating", "rooms": [31] },
+
+    { "id": "diamondsuite-champagnebucket", "label": "an ice bucket", "verb": "swung", "detail": "cold metal, hot temper", "rooms": [32] },
+    { "id": "diamondsuite-mirror", "label": "a vanity mirror", "verb": "shattered", "detail": "seven years bad luck… in one night", "rooms": [32] },
+
+    { "id": "hottub-terrace-towel", "label": "a towel", "verb": "wrapped", "detail": "spa vibes, crime scene energy", "rooms": [33] },
+    { "id": "hottub-terrace-chlorine", "label": "chlorine concentrate", "verb": "poured", "detail": "it stung… then it stopped", "rooms": [33] },
+
+    { "id": "penthouse-balconyrail", "label": "a balcony rail", "verb": "pushed", "detail": "the view was breathtaking. So was the fall.", "rooms": [34] },
+    { "id": "penthouse-chandelierchain", "label": "a chandelier chain", "verb": "snapped", "detail": "luxury dropped from the ceiling—hard", "rooms": [34] },
+
+    { "id": "latecheckout-bell", "label": "the front desk bell", "verb": "rang", "detail": "once. Twice. Then not again.", "rooms": [35] },
+    { "id": "latecheckout-clipboard", "label": "a metal clipboard", "verb": "struck", "detail": "sign here… and here… and here", "rooms": [35] },
+
+    { "id": "generic-candle", "label": "a candle", "verb": "dripped", "detail": "warm wax, cold intent", "rooms": [6, 8, 10, 11, 21, 24, 29, 31] },
+    { "id": "generic-broken-glass", "label": "broken glass", "verb": "cut", "detail": "the kind that doesn’t heal cleanly", "rooms": [4, 6, 8, 9, 12, 21, 32, 34] },
+    { "id": "generic-necklace", "label": "a diamond necklace", "verb": "tightened", "detail": "expensive, intimate, lethal", "rooms": [5, 21, 24, 29, 32, 34] },
+    { "id": "generic-knife", "label": "a kitchen knife", "verb": "plunged", "detail": "quick, messy, unforgettable", "rooms": [8, 20, 35] }
+  ]
 }
